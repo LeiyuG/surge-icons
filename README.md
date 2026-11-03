@@ -9,26 +9,24 @@
 
 同一 PNG 分别放在浅色与深色背景中展示。
 
-![深浅主题全套预览](Preview/all-icons-blue-a-v4.png)
+![深浅主题全套预览](Preview/all-icons-blue-a-v5.png)
 
 ## 本次更新 · 2026-11-03
 
 - 全套服务 logo 与地区字母底牌统一为 A 方案柔和蓝 `#5278A8`。
 - **AlipayHK**：去掉英文名称，仅保留官方“支”字图形并放大，无底板。
 - **Dreamina**：去掉名称，仅保留原图形标识并放大。
-- **Bybit**：新增独立 `Bybit.png`，使用完整官方 BYBIT 字标，移除宣传语。策略组映射已从 `Blinkload_B.png` 改为 `Bybit.png`；旧文件继续保留，兼容其他引用。
+- **Bybit**：新增独立 `Bybit.png`，使用完整官方 BYBIT 字标，移除宣传语，缩减外围留白；保留单行完整字标，不裁切、不拉伸。策略组映射已从 `Blinkload_B.png` 改为 `Bybit.png`；旧文件继续保留，兼容其他引用。
 - **Spotify、ChatGPT**：等比例放大约 38%；**Speedtest** 放大约 25%。
-- **Netflix、Disney+、YouTube**：保留完整字标，缩减外围留白，放大至不裁切的画布极限。
+- **Netflix、Disney+、YouTube**：改为 N、D 与播放图形，移除完整名称并放大。为兼容已有配置，保留 `Netflix_Letter.png`、`Disney+.png`、`YouTube_Letter.png` 文件名。
 - **Wirex**：移除名称，仅保留 W 图形并放大。
 - **Aliyun**：整体等比例缩小约 12%，保持居中。
 - 预览图直接由当前 50 个实际 PNG 生成；全部直链与策略组映射同步更新。
 
-![三个更新图标及小尺寸效果](Preview/updated-logos.png)
-
 ## 文件说明
 
 - `IconSet/`：50 个 256×256 PNG，带透明通道。
-- `Preview/`：全套深浅背景预览，以及本次修改图标的小尺寸预览。
+- `Preview/`：由当前实际 PNG 生成的全套深浅背景预览。
 - `icon-links.txt`：全部 50 个 PNG 直链。
 - `group-icon-links.json`：Surge 策略组与图标的对应关系，包含原配置中的注释项。
 - `Original/`：原始素材；`Original/Official/` 保存补充的官方素材与 AlipayHK 派生矢量。

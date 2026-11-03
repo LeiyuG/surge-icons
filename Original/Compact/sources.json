@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Netflix.png",
+    "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netflix.png",
+    "processing": "仅保留原图形轮廓，去除外围留白，统一A方案柔和蓝并放大。"
+  },
+  {
+    "name": "Disney.png",
+    "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Disney.png",
+    "processing": "仅保留原图形轮廓，去除外围留白，统一A方案柔和蓝并放大。"
+  },
+  {
+    "name": "YouTube.png",
+    "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/YouTube.png",
+    "processing": "仅保留原图形轮廓，去除外围留白，统一A方案柔和蓝并放大。"
+  }
+]
