@@ -33,5 +33,10 @@
     "url": "https://www.bybit.com/common-static/fht-static/cms/7ef736d3-a12d-4e27-9bc6-42b0b0b47d8a.png",
     "page": "https://www.bybit.com/press/",
     "processing": "保留完整BYBIT字标，移除白色背景和宣传语，统一柔和蓝。"
+  },
+  {
+    "name": "paypal-mark-color.svg",
+    "url": "https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-mark-color.svg",
+    "processing": "保留官方双P矢量结构；主色#5278A8、浅蓝#9BC2E6、重叠深蓝#365A86；派生矢量paypal-mark-blue-a.svg；居中放大为224px高度。"
   }
 ]
