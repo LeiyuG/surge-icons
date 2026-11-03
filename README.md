@@ -9,13 +9,13 @@
 
 同一 PNG 分别放在浅色与深色背景中展示。
 
-![深浅主题全套预览](Preview/all-icons-blue-a-v14.png)
+![深浅主题全套预览](Preview/all-icons-blue-a-v15.png)
 
 ## 本次更新 · 2026-11-03
 
 - **Surge**：在与 Google、WeChat 一起缩小 5% 后，又连续单独等比例缩小两次，每次 5%。
 - **Surge、Google、WeChat**：在当前尺寸基础上各等比例缩小 5%。
-- **Global、FINAL**：在当前尺寸基础上各等比例缩小 5%，FINAL 对应 `Proxy.png`。
+- **Global、FINAL**：曾各等比例缩小 5%；FINAL（`Proxy.png`）随后在缩小后的基础上放大 3%。
 - **JP**：仅放大白色字母约 15%，保留底牌尺寸与原字形。
 - **小红书**：保留完整字样，压缩外围留白，放大约 5%。
 - **Apple TV**：保留苹果与 tv 的完整组合标识，收紧两者间距，图形等比例放大约 10%。
