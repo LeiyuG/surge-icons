@@ -3,52 +3,25 @@
 适用于 Surge 的统一配色图标，共 **50 个**。当前使用 **A 方案 · 柔和蓝 `#5278A8`**，兼顾深色与浅色界面的辨识度。
 
 - **服务 logo**：透明背景，保留原标识轮廓与比例，统一柔和蓝，不添加底框或描边。
-- **地区字母图标**：保留深蓝底牌与白字；新加坡 `SG.png` 保持已确认的 v3 文件不变。
+- **地区字母图标**：底牌统一为 A 方案柔和蓝，保留白字。新加坡沿用 v3 的形状、字形与大小，仅更新底牌配色。
 
 ## 深浅主题预览
 
 同一 PNG 分别放在浅色与深色背景中展示。
 
-![深浅主题全套预览](Preview/all-icons.png)
+![深浅主题全套预览](Preview/all-icons-blue-a-v3.png)
 
 ## 本次更新 · 2026-11-03
 
-- 全套服务 logo 从原深蓝改为 A 方案柔和蓝 `#5278A8`。
+- 全套服务 logo 与地区字母底牌统一为 A 方案柔和蓝 `#5278A8`。
 - **AlipayHK**：去掉英文名称，仅保留官方“支”字图形并放大，无底板。
 - **Dreamina**：去掉名称，仅保留原图形标识并放大。
 - **Bybit**：新增独立 `Bybit.png`，使用完整官方 BYBIT 字标，移除宣传语。策略组映射已从 `Blinkload_B.png` 改为 `Bybit.png`；旧文件继续保留，兼容其他引用。
-- 预览图、全部直链与策略组映射同步更新。
+- **Wirex**：移除名称，仅保留 W 图形并放大。
+- **Aliyun**：整体等比例缩小约 12%，保持居中。
+- 预览图直接由当前 50 个实际 PNG 生成；全部直链与策略组映射同步更新。
 
 ![三个更新图标及小尺寸效果](Preview/updated-logos.png)
-
-## 在 Surge 中使用
-
-在图标网址栏中**只粘贴 PNG 网址**，不要包含 `icon-url=`。
-
-例如 Bybit：
-
-```text
-https://raw.githubusercontent.com/LeiyuG/surge-icons/main/IconSet/Bybit.png?rev=20261103-blue-a-v2
-```
-
-编辑配置文本时才使用：
-
-```ini
-icon-url=https://raw.githubusercontent.com/LeiyuG/surge-icons/main/IconSet/Bybit.png?rev=20261103-blue-a-v2
-```
-
-常用图标直链：
-
-| 图标 | PNG 直链 |
-| --- | --- |
-| Bybit | [Bybit.png](https://raw.githubusercontent.com/LeiyuG/surge-icons/main/IconSet/Bybit.png?rev=20261103-blue-a-v2) |
-| AlipayHK | [AlipayHK.png](https://raw.githubusercontent.com/LeiyuG/surge-icons/main/IconSet/AlipayHK.png?rev=20261103-blue-a-v2) |
-| Dreamina | [Dreamina.png](https://raw.githubusercontent.com/LeiyuG/surge-icons/main/IconSet/Dreamina.png?rev=20261103-blue-a-v2) |
-| 新加坡 SG v3 | [SG.png](https://raw.githubusercontent.com/LeiyuG/surge-icons/main/IconSet/SG.png?rev=20261103-blue-a-v2) |
-
-全部地址见 [icon-links.txt](icon-links.txt)，策略组对应关系见 [group-icon-links.json](group-icon-links.json)。
-
-若仍显示旧图标，使用带有新 `rev` 参数的完整网址重新设置。`rev` 用于区分缓存版本，不改变 PNG 文件名。这些是固定配色 PNG，不会随 Surge 主题自动变色。
 
 ## 文件说明
 
