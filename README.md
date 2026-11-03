@@ -9,7 +9,7 @@
 
 同一 PNG 分别放在浅色与深色背景中展示。
 
-![深浅主题全套预览](Preview/all-icons-blue-a-v3.png)
+![深浅主题全套预览](Preview/all-icons-blue-a-v4.png)
 
 ## 本次更新 · 2026-11-03
 
@@ -17,6 +17,8 @@
 - **AlipayHK**：去掉英文名称，仅保留官方“支”字图形并放大，无底板。
 - **Dreamina**：去掉名称，仅保留原图形标识并放大。
 - **Bybit**：新增独立 `Bybit.png`，使用完整官方 BYBIT 字标，移除宣传语。策略组映射已从 `Blinkload_B.png` 改为 `Bybit.png`；旧文件继续保留，兼容其他引用。
+- **Spotify、ChatGPT**：等比例放大约 38%；**Speedtest** 放大约 25%。
+- **Netflix、Disney+、YouTube**：保留完整字标，缩减外围留白，放大至不裁切的画布极限。
 - **Wirex**：移除名称，仅保留 W 图形并放大。
 - **Aliyun**：整体等比例缩小约 12%，保持居中。
 - 预览图直接由当前 50 个实际 PNG 生成；全部直链与策略组映射同步更新。
