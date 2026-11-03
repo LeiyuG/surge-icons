@@ -9,10 +9,11 @@
 
 同一 PNG 分别放在浅色与深色背景中展示。
 
-![深浅主题全套预览](Preview/all-icons-blue-a-v11.png)
+![深浅主题全套预览](Preview/all-icons-blue-a-v12.png)
 
 ## 本次更新 · 2026-11-03
 
+- **Surge、Google、WeChat**：在当前尺寸基础上各等比例缩小 5%。
 - **Global、FINAL**：在当前尺寸基础上各等比例缩小 5%，FINAL 对应 `Proxy.png`。
 - **JP**：仅放大白色字母约 15%，保留底牌尺寸与原字形。
 - **小红书**：保留完整字样，压缩外围留白，放大约 5%。
