@@ -21,5 +21,17 @@
     "name": "ChatGPT.png",
     "url": "https://cdn.oaistatic.com/assets/apple-touch-icon-mz9nytnj.webp",
     "type": "image/webp"
+  },
+  {
+    "name": "AlipayHK-app-original.svg",
+    "url": "https://gw.alipayobjects.com/os/bmw-prod/65a982c9-21ae-4415-86b3-080b07f430ce.zip",
+    "page": "https://docs.alipay.hk/alipayhkdocs/hk/website_hk/design",
+    "processing": "提取官方矢量支字轮廓，移除底板和HK字母；派生矢量为 alipayhk-symbol.svg。"
+  },
+  {
+    "name": "bybit-brand.png",
+    "url": "https://www.bybit.com/common-static/fht-static/cms/7ef736d3-a12d-4e27-9bc6-42b0b0b47d8a.png",
+    "page": "https://www.bybit.com/press/",
+    "processing": "保留完整BYBIT字标，移除白色背景和宣传语，统一柔和蓝。"
   }
 ]

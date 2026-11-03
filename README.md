@@ -1,41 +1,66 @@
 # Surge Icons
 
-适用于 Surge 的统一深蓝色图标，共 49 个。字母图标保留深蓝底牌和白字；其他 logo 仅保留原始轮廓，深蓝色、透明背景，不添加底框或描边。SG 使用已确认的 v3 最终文件。
+适用于 Surge 的统一配色图标，共 **50 个**。当前使用 **A 方案 · 柔和蓝 `#5278A8`**，兼顾深色与浅色界面的辨识度。
+
+- **服务 logo**：透明背景，保留原标识轮廓与比例，统一柔和蓝，不添加底框或描边。
+- **地区字母图标**：保留深蓝底牌与白字；新加坡 `SG.png` 保持已确认的 v3 文件不变。
+
+## 深浅主题预览
+
+同一 PNG 分别放在浅色与深色背景中展示。
 
 ![深浅主题全套预览](Preview/all-icons.png)
 
-## 使用
+## 本次更新 · 2026-11-03
 
-在 Surge 的图标网址栏中只粘贴 PNG 网址，不要包含 `icon-url=`。
+- 全套服务 logo 从原深蓝改为 A 方案柔和蓝 `#5278A8`。
+- **AlipayHK**：去掉英文名称，仅保留官方“支”字图形并放大，无底板。
+- **Dreamina**：去掉名称，仅保留原图形标识并放大。
+- **Bybit**：新增独立 `Bybit.png`，使用完整官方 BYBIT 字标，移除宣传语。策略组映射已从 `Blinkload_B.png` 改为 `Bybit.png`；旧文件继续保留，兼容其他引用。
+- 预览图、全部直链与策略组映射同步更新。
 
-例如新加坡：
+![三个更新图标及小尺寸效果](Preview/updated-logos.png)
+
+## 在 Surge 中使用
+
+在图标网址栏中**只粘贴 PNG 网址**，不要包含 `icon-url=`。
+
+例如 Bybit：
 
 ```text
-https://raw.githubusercontent.com/LeiyuG/surge-icons/main/IconSet/SG.png?rev=20261103-transparent
+https://raw.githubusercontent.com/LeiyuG/surge-icons/main/IconSet/Bybit.png?rev=20261103-blue-a-v2
 ```
 
 编辑配置文本时才使用：
 
 ```ini
-icon-url=https://raw.githubusercontent.com/LeiyuG/surge-icons/main/IconSet/SG.png?rev=20261103-transparent
+icon-url=https://raw.githubusercontent.com/LeiyuG/surge-icons/main/IconSet/Bybit.png?rev=20261103-blue-a-v2
 ```
 
-## 图标
+常用图标直链：
 
-- `IconSet/`：49 个最终 PNG，256×256，带透明通道。字母图标为深蓝底白字；logo 为独立深蓝标识，无底框、无描边。
-- `SG.png` 与已确认的 v3 文件逐字节一致；已删除带版本号的 SG 测试文件。
-- 链接中的 `rev` 查询参数用于绕过旧图标缓存，不改变 PNG 文件名。
-- 独立深蓝 logo 在深色界面上的对比度低于浅色界面；预览如实展示同一 PNG 在两种背景上的效果。
-- ES、FR 为新增地区字母图标。
-- Wirex、Dreamina、ChatGPT、AlipayHK 使用官方网站提供的标识素材。
-- 其余图标保留原图标识的轮廓、字样、比例及内部明暗层次，仅统一颜色和显示大小，不添加底框。
-- `icon-links.txt`：全部最终 PNG 直链。
-- `group-icon-links.json`：Surge 策略组与图标链接对应关系，包含原配置中的注释项。
-- `Original/`：原始图标素材；`Original/Official/` 为新增官方素材。
-- `sources.json`、`original-png-links.txt`、`official-logo-sources.json`：来源记录。
+| 图标 | PNG 直链 |
+| --- | --- |
+| Bybit | [Bybit.png](https://raw.githubusercontent.com/LeiyuG/surge-icons/main/IconSet/Bybit.png?rev=20261103-blue-a-v2) |
+| AlipayHK | [AlipayHK.png](https://raw.githubusercontent.com/LeiyuG/surge-icons/main/IconSet/AlipayHK.png?rev=20261103-blue-a-v2) |
+| Dreamina | [Dreamina.png](https://raw.githubusercontent.com/LeiyuG/surge-icons/main/IconSet/Dreamina.png?rev=20261103-blue-a-v2) |
+| 新加坡 SG v3 | [SG.png](https://raw.githubusercontent.com/LeiyuG/surge-icons/main/IconSet/SG.png?rev=20261103-blue-a-v2) |
+
+全部地址见 [icon-links.txt](icon-links.txt)，策略组对应关系见 [group-icon-links.json](group-icon-links.json)。
+
+若仍显示旧图标，使用带有新 `rev` 参数的完整网址重新设置。`rev` 用于区分缓存版本，不改变 PNG 文件名。这些是固定配色 PNG，不会随 Surge 主题自动变色。
+
+## 文件说明
+
+- `IconSet/`：50 个 256×256 PNG，带透明通道。
+- `Preview/`：全套深浅背景预览，以及本次修改图标的小尺寸预览。
+- `icon-links.txt`：全部 50 个 PNG 直链。
+- `group-icon-links.json`：Surge 策略组与图标的对应关系，包含原配置中的注释项。
+- `Original/`：原始素材；`Original/Official/` 保存补充的官方素材与 AlipayHK 派生矢量。
+- `sources.json`、`original-png-links.txt`、`official-logo-sources.json`：素材来源记录。
 
 ## 来源与权利
 
-原配置素材来自 [Koolson/Qure](https://github.com/Koolson/Qure)、[fmz200/wool_scripts](https://github.com/fmz200/wool_scripts) 和 [Jasonaax/Surge](https://github.com/Jasonaax/Surge)。新增标识来自 [Wirex](https://www.wirexapp.com/)、[Dreamina](https://dreamina.capcut.com/)、[ChatGPT](https://chatgpt.com/) 和 [AlipayHK](https://www.alipayhk.com/)。具体素材网址见来源记录。
+原配置素材来自 [Koolson/Qure](https://github.com/Koolson/Qure)、[fmz200/wool_scripts](https://github.com/fmz200/wool_scripts) 和 [Jasonaax/Surge](https://github.com/Jasonaax/Surge)。补充标识来自 [Wirex](https://www.wirexapp.com/)、[Dreamina](https://dreamina.capcut.com/)、[ChatGPT](https://chatgpt.com/)、[AlipayHK](https://www.alipayhk.com/) / [官方设计资源](https://docs.alipay.hk/alipayhkdocs/hk/website_hk/design)，以及 [Bybit 官方品牌资源](https://www.bybit.com/press/)。具体素材网址及处理方式见来源记录。
 
 各品牌名称与标识归相应权利人所有。本仓库用于个人 Surge 策略组的服务辨识，不代表任何品牌的官方图标集、合作或背书，不更改原始素材的许可。
