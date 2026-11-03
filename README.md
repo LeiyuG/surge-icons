@@ -9,11 +9,12 @@
 
 同一 PNG 分别放在浅色与深色背景中展示。
 
-![深浅主题全套预览](Preview/all-icons-blue-a-v6.png)
+![深浅主题全套预览](Preview/all-icons-blue-a-v7.png)
 
 ## 本次更新 · 2026-11-03
 
 - 全套服务 logo 与地区字母底牌统一为 A 方案柔和蓝 `#5278A8`。
+- **全套尺寸复查**：将 Apple、Google、Microsoft、Telegram、TikTok、Dreamina 等 20 个偏小图标等比例放大约 16%–40%，按图形轮廓平衡显示大小；Aliyun 保持此前确认的缩小尺寸。
 - **AlipayHK**：去掉英文名称，仅保留官方“支”字图形并放大，无底板。
 - **Dreamina**：去掉名称，仅保留原图形标识并放大。
 - **Bybit**：新增独立 `Bybit.png`，使用完整官方 BYBIT 字标，移除宣传语，缩减外围留白；保留单行完整字标，不裁切、不拉伸。策略组映射已从 `Blinkload_B.png` 改为 `Bybit.png`；旧文件继续保留，兼容其他引用。
